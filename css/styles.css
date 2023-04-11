@@ -1,0 +1,187 @@
+html, body {
+  font-family: 'Montserrat';
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box
+}
+
+h1, h3, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+li {
+  text-align: right;
+}
+
+p {
+  color: #EAE509;
+  font-size: 30px;
+}
+
+ul, ol {
+  text-align: left;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 40px;
+}
+
+hr {
+  border-color: #EAE509;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  height: 0;
+  width: 100%;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-weight: normal;
+}
+
+table {
+  margin-top: 10%;
+  font-size: 25px;
+}
+
+.adaos {
+  text-align: left;
+}
+
+.pret {
+  text-align: center;
+}
+
+.img {
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  padding: 3%;
+  margin: auto;
+  text-align: center;
+}
+
+.colored-section {
+  background-color: #2e6e4c;
+  color: #fff;
+}
+
+.section-heading {
+  line-height: 1.5;
+}
+
+/********* Navbar *********/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+.menu-row {
+  margin: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.drinks {
+  color: white;
+  font-size: 20px;
+}
+
+/********** Footer **********/
+#footer {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.links {
+  font-size: 70px;
+  margin: 15px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.copyright {
+  font-size: 17px;
+  color: white;
+}
+
+a, a:hover, a:active, a:visited {
+  color: white;
+}
+
+@media(max-width:1028px) {
+  .nav-link {
+    font-size: 2.2rem;
+  }
+
+  .navbar-brand {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  table {
+    font-size: 30px;
+  }
+
+  .img {
+    height: 300px;
+  }
+
+  .drinks {
+    font-size: 40px;
+  }
+
+  .navbar-toggler {
+    padding: 2rem;
+  }
+
+  .copyright {
+    font-size: 2rem;
+  }
+
+  .img-up {
+    margin-top: 50px;
+  }
+
+  .p-table {
+    font-size: 40px;
+  }
+
+  .b-p {
+    margin-right: 15px;
+  }
+}
